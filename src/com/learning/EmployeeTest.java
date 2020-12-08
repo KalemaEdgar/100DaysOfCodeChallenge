@@ -1,4 +1,4 @@
-package com.tutorialspoint;
+package com.learning;
 
 public class EmployeeTest {
     public static void main(String[] args) {

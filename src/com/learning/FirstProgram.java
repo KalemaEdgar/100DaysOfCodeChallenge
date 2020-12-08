@@ -1,4 +1,4 @@
-package com.tutorialspoint;
+package com.learning;
 
 public class FirstProgram {
     public static void main(String[] args) {
