@@ -1,4 +1,4 @@
-package com.learning;
+package com.learning.day1;
 
 public class Employee {
     int age; // Instance variable. Outside of any method, within a class and require an instance of the class to be used

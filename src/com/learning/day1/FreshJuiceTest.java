@@ -1,4 +1,4 @@
-package com.learning;
+package com.learning.day1;
 
 public class FreshJuiceTest {
     public static void main(String[] args) {
