@@ -16,10 +16,10 @@ public class StringClass {
         System.out.printf("Using printf - The length of the greeting is %d%n", greeting.length());
 
         // Using the String format() method
-        String fs;
         float floatVariable = (float) 20.5; // 20.5f
         int intVariable = 60;
         String stringVariable = "Kalema Ed";
+        String fs;
         fs = String.format("The value of the float variable is %f" +
                 ", the value of the integer is %d" +
                 "and the string value is %s", floatVariable, intVariable, stringVariable);
