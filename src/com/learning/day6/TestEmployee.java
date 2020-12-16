@@ -3,13 +3,13 @@ package com.learning.day6;
 public class TestEmployee {
     public static void main(String[] args) {
         Employee emp = new Employee("Edgar", 20, 12000000);
-        String[] places = {"Nairobi", "Kampala", "Entebbe"};
-        emp.setCities(places);
+        //////// You can pass values to an array this way
+         String[] places = {"Nairobi", "Kampala", "Entebbe"};
+         emp.setCities(places);
         emp.printCities();
 
         Employee emp2 = new Employee("Jack", 85, 12000);
-        String[] places2 = {"Nairobi", "Washington", "Arusha", "Nateete"};
-        emp2.setCities(places2);
+        emp2.setCities(new String[]{"Nairobi", "Washington", "Arusha", "Nateete"});
         emp2.printCities();
 
         // String - is not immutable. So when you append something to the string variable, Java reads the content of the current variable,
