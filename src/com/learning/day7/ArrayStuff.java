@@ -6,7 +6,6 @@ public class ArrayStuff
 {
     public static void main(String[] args)
     {
-
         String[] places3 = new String[4];
         places3[0] = "Testing 0";
         places3[1] = "Testing 1";
