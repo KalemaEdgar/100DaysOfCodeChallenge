@@ -2,12 +2,19 @@ package com.learning.day8;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class DateStuff {
     public static void main(String[] args) {
+
+        GregorianCalendar gregorianDate = new GregorianCalendar();
+        System.out.println("Current date and time using GregorianCalender class " + gregorianDate.getTime());
+        System.out.println("Is 2020 a leap year " + gregorianDate.isLeapYear(2020));
+        System.out.println("Is 2021 a leap year " + gregorianDate.isLeapYear(2021));
+
         // Getting the current date and time
         Date currentDateAndTime = new Date();
-        System.out.println(currentDateAndTime.toString());
+        System.out.println("Current date and time using Date class " + currentDateAndTime.toString());
 
         // Formatting dates using SimpleDateFormat
         SimpleDateFormat ft = new SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a zzz");

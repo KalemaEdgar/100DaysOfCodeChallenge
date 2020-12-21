@@ -16,7 +16,7 @@ public class ElapsedTime {
 
             long elapsedTime = end - start;
             System.out.println("Elapsed time is: " + elapsedTime);
-            
+
         } catch (Exception e) {
             System.out.println("Got an exception" + e.getMessage());
             e.printStackTrace();
