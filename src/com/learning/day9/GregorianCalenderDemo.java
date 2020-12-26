@@ -7,6 +7,8 @@ public class GregorianCalenderDemo {
     public static void main(String[] args) {
         String[] months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
+        // Create a Gregorian calendar initialized
+        // with the current date and time in the default locale and timezone.
         GregorianCalendar gCalendarObject = new GregorianCalendar();
         System.out.println("Current date and time: " + gCalendarObject.getTime());
         System.out.println("Current month: " + months[gCalendarObject.get(Calendar.MONTH)]);
@@ -15,7 +17,7 @@ public class GregorianCalenderDemo {
         System.out.print("Date is: ");
         int year = gCalendarObject.get(Calendar.YEAR);
         System.out.print(year);
-        System.out.print("-" + ((int) gCalendarObject.get(Calendar.MONTH) + 1));
+        System.out.print("-" + (gCalendarObject.get(Calendar.MONTH) + 1));
         System.out.println("-" + gCalendarObject.get(Calendar.DAY_OF_MONTH));
 
         // Check if the current year is a leap year
