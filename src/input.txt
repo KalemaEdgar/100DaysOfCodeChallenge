@@ -1,0 +1,7 @@
+Hello there Edgar.
+FileInputStream and FileOutputStream
+Testing the Java stuff
+
+Using the FileReader and FileWriter classes - Character stream
+Though internally FileReader uses FileInputStream and FileWriter uses FileOutputStream but here the major difference is
+that FileReader reads two bytes at a time and FileWriter writes two bytes at a time.
