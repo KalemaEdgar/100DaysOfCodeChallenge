@@ -1,6 +1,7 @@
 package com.learning.day13;
 
 import java.io.*;
+import java.util.Arrays;
 
 public class FileManagement {
     public static void main(String[] args) throws IOException {
@@ -38,8 +39,14 @@ public class FileManagement {
 
         } catch (FileNotFoundException ex) {
             // ex.printStackTrace();
-            System.out.printf("Exception encountered: %s%n", ex.getMessage());
+            System.out.println(ex.getCause());
+            System.out.printf("Exception encountered: %s%n", ex.toString());
+            // System.out.printf("Exception encountered: %s%n", ex.getMessage());
+            // System.out.println(Arrays.toString(ex.getStackTrace()));
+
         } finally {
+            // finally block always executes, irrespective of occurrence of an Exception.
+            // Using a finally block allows you to run any cleanup-type statements, no matter what happens in the try/catch block.
             if (fin != null) {
                 fin.close();
             }
@@ -47,10 +54,13 @@ public class FileManagement {
             if (fout != null) {
                 fout.close();
             }
+
+            System.out.println("finally block always executes, irrespective of occurrence of an Exception.");
         }
     }
 
     protected void finalize() throws IOException {
+        // Research more about this method
         // This method cleans up the connection to the file.
         // Ensures that the close method of this file output stream is called when there are no more references to this stream.
         System.out.println("This is interesting");

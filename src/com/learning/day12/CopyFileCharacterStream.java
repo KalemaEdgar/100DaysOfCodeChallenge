@@ -33,6 +33,8 @@ public class CopyFileCharacterStream {
             System.out.println("Elapsed time using a CharacterStream is: " + elapsedTime);
 
         } finally {
+            // finally block always executes, irrespective of occurrence of an Exception.
+            // Using a finally block allows you to run any cleanup-type statements, no matter what happens in the try/catch block.
             if (in != null) {
                 in.close();
             }
