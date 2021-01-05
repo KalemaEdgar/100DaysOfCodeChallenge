@@ -9,7 +9,7 @@ public class FileDemo {
         String[] strs = {"test1.txt", "test2.txt"};
         try {
             // for each string in string array
-            for(String s:strs ) {
+            for(String s: strs) {
                 // create new file
                 f = new File(s);
                 // f.createNewFile();
