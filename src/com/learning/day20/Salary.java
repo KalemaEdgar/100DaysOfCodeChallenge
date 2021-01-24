@@ -13,6 +13,7 @@ public class Salary extends Employee {
         System.out.println("Mailing cheque to " + getName() + " with salary " + salary);
     }
 
+    // This has to be defined cause in the Abstract class 'Employee', it was declared as an abstract method
     public boolean checkRetirement() {
         return true;
     }

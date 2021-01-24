@@ -11,6 +11,7 @@ public abstract class Employee {
         this.address = address;
         this.number = number;
     }
+
     public abstract boolean checkRetirement();
 
     public double computePayment() {
