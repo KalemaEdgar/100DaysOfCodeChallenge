@@ -6,6 +6,9 @@ import java.util.Hashtable;
 public class HashTableDemo {
     public static void main(String[] args) {
 
+        // Hashtable was part of the original java.util and is a concrete implementation of a Dictionary.
+        // Dictionary is an abstract class that represents a key/value storage repository and operates much like Map.
+
         Hashtable balance = new Hashtable();
         Enumeration names;
         String str;

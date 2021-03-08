@@ -6,6 +6,9 @@ import java.util.Iterator;
 
 public class PropertiesDemo {
     public static void main(String[] args) {
+
+        // Properties is a subclass of Hashtable. It is used to maintain lists of values in which the key is a String and the value is also a String.
+
         Properties capitals = new Properties();
         Set states;
         String str;

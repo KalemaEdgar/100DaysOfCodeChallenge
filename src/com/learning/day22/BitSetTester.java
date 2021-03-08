@@ -4,6 +4,9 @@ import java.util.BitSet;
 
 public class BitSetTester {
     public static void main(String[] args) {
+
+        // A BitSet class creates a special type of array that holds bit values. This array can increase in size as needed.
+
         BitSet bits1 = new BitSet(16);
         BitSet bits2 = new BitSet(16);
 

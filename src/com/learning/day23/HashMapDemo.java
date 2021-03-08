@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class HashMapDemo {
     public static void main(String[] args) {
-        // Create a Hash map
+        // Create a Hash map -- Elements don't have to be in a sorted ascending key order (if sorting is needed, use a TreeMap)
         HashMap hm = new HashMap();
 
         // Put elements into the map

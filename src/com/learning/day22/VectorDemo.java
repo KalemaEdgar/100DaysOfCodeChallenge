@@ -5,6 +5,9 @@ import java.util.Vector;
 
 public class VectorDemo {
     public static void main(String args[]) {
+
+        // This implements a dynamic array. It is similar to ArrayList, but with some differences.
+
         // initial size is 3, increment is 2
         Vector v = new Vector(3, 2);
         System.out.println("Initial size: " + v.size());

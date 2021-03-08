@@ -16,7 +16,7 @@ public class SetDemo {
             }
             System.out.println("The HashSet is: " + set);
 
-            TreeSet sortedSet = new TreeSet<Integer>(set);
+            TreeSet sortedSet = new TreeSet<Integer>(set); // In a TreeSet, objects are stored in a sorted and ascending order.
             System.out.print("The sorted list (using a TreeSet interface) is: " + sortedSet);
             System.out.println();
             System.out.println("The first element of the SortedSet is: " + (Integer) sortedSet.first());

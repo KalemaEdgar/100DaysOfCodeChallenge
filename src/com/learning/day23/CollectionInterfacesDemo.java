@@ -33,7 +33,8 @@ public class CollectionInterfacesDemo {
         System.out.println("LinkedList get subList from 2 to 5 -- " + l1.subList(2,5));
 
         // HashSet - Cannot contain duplicates
-        Set hs1 = new HashSet();
+        // Set hs1 = new HashSet();
+        HashSet hs1 = new HashSet();
         hs1.add("Ked");
         hs1.add("Balungi");
         hs1.add("Racheal");
